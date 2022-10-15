@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#printing process and name
+
+ps -eaf | awk '{ print substr($0, index($0, $9)) }'
