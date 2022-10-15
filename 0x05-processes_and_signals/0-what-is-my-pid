@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-$BASHPID
+#Displaying own PID
+
+echo $BASHPID
